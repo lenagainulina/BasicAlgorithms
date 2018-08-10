@@ -18,7 +18,8 @@ public class Main {
         if (input1.length()!=input2.length())
             return false;
         for(int i=0; i<input1.length()-1; i++){
-            input1 = input1.substring(1) + input1.charAt(0);
+            //   input1 = new StringBuilder(input1.substring(1)).append(input1.charAt(0)).toString();
+            input1 =  input1.charAt(input1.length()-1)+input1.substring(0, input1.length()-1);
             if (input1.equals(input2))
                 return true;
         }
