@@ -1,5 +1,6 @@
 /*
 Reverse a string recursively and through looping
+In production it's better to avoid recursion, because it requires more memory, can be slow and can cause a stack overflow when input values are big.
  */
 
 public class Main {
