@@ -1,5 +1,5 @@
 /*
-Reverse a string recursively
+Reverse a string recursively and through looping
  */
 
 public class Main {
